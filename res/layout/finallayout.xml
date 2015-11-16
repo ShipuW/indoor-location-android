@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bk"
+    
+    >
+    
+    <TextView 
+    	
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/burlywood"
+        android:layout_marginTop="20dp"
+        android:text="========数据采集部分========"
+  
+    	    />
+    	<EditText 
+    	       android:id="@+id/myfinalEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="首输入要保存的文件的名称"
+    	    />
+    		<EditText 
+    	       android:id="@+id/mytimeEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="再输入传感器采集的周期"
+    	    />
+    	
+    
+    			<EditText 
+    	       android:id="@+id/myResultEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="设置保存结果的文件名"
+        android:visibility="gone"
+    	    />
+    	
+    	 
+    	 
+    	<TextView 
+    	           android:id="@+id/myfinalText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="采集结果输出"
+        android:textSize="20sp"
+        android:textColor="@color/burlywood"
+    	    />
+    	
+    			<LinearLayout 
+    		    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    		    >
+    			     <Button 
+           android:id="@+id/myEditButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确定"
+         android:drawableTop="@drawable/myeditbutton"
+         android:background="@color/turquoise"  
+         android:layout_marginLeft="30dp"
+          />
+    			    
+    			     <Button 
+           android:id="@+id/myfinalstartButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始"
+         android:drawableTop="@drawable/myfinalstartbutton"
+        android:background="@color/turquoise"  
+         android:layout_marginLeft="22dp"
+          />
+     
+        <Button 
+           android:id="@+id/myinttartButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="暂停"
+          android:drawableTop ="@drawable/myinttartbutton"
+          android:background="@color/turquoise"  
+          android:layout_marginLeft="30dp"
+          />
+           <Button 
+           android:id="@+id/myfinalEndButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="结束"
+          android:drawableTop="@drawable/myfinalendbutton"
+          android:background="@color/turquoise"  
+          android:layout_marginLeft="30dp"
+          />
+    			    
+    			</LinearLayout>
+     
+        <TextView 
+    	           android:id="@+id/myresultText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="==========测试部分=========="
+        android:textSize="20sp"
+        android:textColor="@color/burlywood"
+        android:layout_marginTop="20dp"/>
+        <CheckBox 
+	    android:id="@+id/myCheck"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text = "不选是自动滑动，选择是手动滑动界面"
+         android:textColor="@color/burlywood"
+          android:textSize="20sp"/>
+           
+        <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+            <Button 
+           android:id="@+id/myStepCountButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="输入身高"
+        android:drawableTop="@drawable/mystepcountbutton"
+        android:background="@color/tomato"
+         android:layout_marginLeft="40dp"
+        
+          />
+         <Button 
+            android:id="@+id/myPaintEndButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="动态绘图"
+	        android:layout_marginLeft="40dp"
+	        android:drawableTop="@drawable/mypaintendbutton"
+	        android:background="@color/tomato"
+          />
+             
+         <Button
+             android:id="@+id/mytest_Button"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="40dp"
+             android:background="@color/tomato"
+             android:drawableTop="@drawable/myinttartbutton"
+             android:text="模拟测试"
+             android:visibility="gone" />
+            
+        </LinearLayout>
+        	<CheckBox 
+	    android:id="@+id/myCheckBox"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text = "是否保存数据,选上为保存，不选不保存"
+         android:textColor="@color/burlywood"
+          android:textSize="20sp"
+       
+    		    />
+ 
+             
+             
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">PackageActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_package">PackageActivity</string>
+	<string name="none_found">未找到设备</string>
+	<string name="none_paired">未配对设备</string>
+	
+	
+
+    <string name="info">当前在线0个用户</string>
+    <string name="file_title">选择要发送的文件</string>
+    <string name="file_path">当前路径：</string>
+    <string name="no_wifi">没有wifi连接，请检查wifi设置后再启动本程序。</string>
+	</resources>

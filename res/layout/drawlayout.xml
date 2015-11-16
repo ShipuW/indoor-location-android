@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/draw_main"
+   android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <LinearLayout
+        android:id="@+id/ore_Li"
+          android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+         >
+        
+    
+<TextView 
+    android:id="@+id/draw_textview"
+        android:layout_width="180sp"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="\n  航向角：\n  俯仰角：\n  横滚角：\n  磁力计：\n  总步数：\n  总距离：\n  总偏差：\n  "
+    />
+<TextView 
+    android:id="@+id/draw_textview_ori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:textSize="15dp"
+        android:text="\n  参考航向角：\n  参考俯仰角：\n  参考横滚角：\n  "
+    />
+</LinearLayout>
+</LinearLayout >
